@@ -2,3 +2,13 @@ baseURL = 'https://lim-blog.netlify.app/'
 languageCode = 'en-us'
 title = 'Lim Blog'
 theme = 'hyde'
+
+[Menus]
+  main = [
+      {Name = "Github", URL = "https://github.com/LimWeiJen/"},
+      {Name = "Website", URL = "https://limweijen.netlify.app"}
+  ]
+
+[params]
+  description = "Hello there! I'm Lim Wei Jen, a full-stack web developer. I love collaborating on quick projects and bringing ideas to life. With a passion for both graphics design and programming, I create visually stunning and functional websites. I bring a unique blend of creativity and technical expertise to every project."
+  themeColor = "theme-base-0f"

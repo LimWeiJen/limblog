@@ -4,3 +4,7 @@
 [submodule "themes/jane"]
 	path = themes/jane
 	url = https://github.com/xianmin/hugo-theme-jane.git
+
+[submodule "themes/hyde"]
+	path = themes/hyde
+	url = https://github.com/spf13/hyde.git

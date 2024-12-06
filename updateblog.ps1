@@ -4,8 +4,6 @@
 $sourcePath = "C:\Users\Lim Wei Jen\Documents\Obsidian\Blog"
 $destinationPath = "C:\Users\Lim Wei Jen\Documents\Coding Projects\limblog\content\posts"
 
-# Set Github repo 
-$myrepo = "reponame"
 
 # Set error handling
 $ErrorActionPreference = "Stop"
@@ -35,19 +33,6 @@ foreach ($cmd in $requiredCommands) {
     }
 }
 
-# Step 1: Check if Git is initialized, and initialize if necessary
-if (-not (Test-Path ".git")) {
-    Write-Host "Initializing Git repository..."
-    git init
-    git remote add origin $myrepo
-} else {
-    Write-Host "Git repository already initialized."
-    $remotes = git remote
-    if (-not ($remotes -contains 'origin')) {
-        Write-Host "Adding remote origin..."
-        git remote add origin $myrepo
-    }
-}
 
 # Step 2: Sync posts from Obsidian to Hugo content folder using Robocopy
 Write-Host "Syncing posts from Obsidian..."
@@ -117,7 +102,7 @@ if (-not $hasStagedChanges) {
 # Step 7: Push all changes to the main branch
 Write-Host "Deploying to GitHub Master..."
 try {
-    git push origin master
+    git push
 } catch {
     Write-Error "Failed to push to Master branch."
     exit 1

@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tag2 on My New Hugo Site</title>
-    <link>https://example.org/tags/tag2/</link>
-    <description>Recent content in Tag2 on My New Hugo Site</description>
+    <title>Tag2 on Lim Blog</title>
+    <link>https://lim-blog.netlify.app/tags/tag2/</link>
+    <description>Recent content in Tag2 on Lim Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lim-blog.netlify.app/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>blogtitle</title>
-      <link>https://example.org/posts/test-blog/</link>
+      <link>https://lim-blog.netlify.app/posts/test-blog/</link>
       <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/test-blog/</guid>
-      <description>&lt;p&gt;This is a test&#xA;&lt;img src=&#34;https://images.unsplash.com/photo-1509474228233-23df6083dea6?crop=entropy&amp;amp;cs=tinysrgb&amp;amp;fit=max&amp;amp;fm=jpg&amp;amp;ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwxNXx8aGVsbG98ZW58MHwwfHx8MTczMzQwNDMwN3ww&amp;amp;ixlib=rb-4.0.3&amp;amp;q=80&amp;amp;w=1080&#34; alt=&#34;Hello Goodbye&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;hello-world&#34;&gt;Hello world&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-about-this&#34;&gt;What about this?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;and also something else I think?&#xA;![[Test Blog 2024-12-06 13.42.18.excalidraw]]&#xA;!&lt;img src=&#34;https://example.org/images/Pasted%20image%2020241206135046.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; checkboxes&#xA;!&lt;img src=&#34;https://example.org/images/Pasted%20image%2020241206140340.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;yesss&#34;&gt;Yesss&lt;/h1&gt;</description>
+      <guid>https://lim-blog.netlify.app/posts/test-blog/</guid>
+      <description>&lt;p&gt;This is a test&#xA;&lt;img src=&#34;https://images.unsplash.com/photo-1509474228233-23df6083dea6?crop=entropy&amp;amp;cs=tinysrgb&amp;amp;fit=max&amp;amp;fm=jpg&amp;amp;ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwxNXx8aGVsbG98ZW58MHwwfHx8MTczMzQwNDMwN3ww&amp;amp;ixlib=rb-4.0.3&amp;amp;q=80&amp;amp;w=1080&#34; alt=&#34;Hello Goodbye&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;hello-world&#34;&gt;Hello world&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-about-this&#34;&gt;What about this?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;and also something else I think?&#xA;![[Test Blog 2024-12-06 13.42.18.excalidraw]]&#xA;!&lt;img src=&#34;https://lim-blog.netlify.app/images/Pasted%20image%2020241206135046.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; checkboxes&#xA;!&lt;img src=&#34;https://lim-blog.netlify.app/images/Pasted%20image%2020241206140340.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;yesss&#34;&gt;Yesss&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Second Test Blog</title>
+      <link>https://lim-blog.netlify.app/posts/hello-world/</link>
+      <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://lim-blog.netlify.app/posts/hello-world/</guid>
+      <description>&lt;p&gt;This is a test&#xA;&lt;img src=&#34;https://images.unsplash.com/photo-1509474228233-23df6083dea6?crop=entropy&amp;amp;cs=tinysrgb&amp;amp;fit=max&amp;amp;fm=jpg&amp;amp;ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwxNXx8aGVsbG98ZW58MHwwfHx8MTczMzQwNDMwN3ww&amp;amp;ixlib=rb-4.0.3&amp;amp;q=80&amp;amp;w=1080&#34; alt=&#34;Hello Goodbye&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;hello-world&#34;&gt;Hello world&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-about-this&#34;&gt;What about this?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;and also something else I think?&#xA;![[Test Blog 2024-12-06 13.42.18.excalidraw]]&#xA;!&lt;img src=&#34;https://lim-blog.netlify.app/images/Pasted%20image%2020241206135046.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; checkboxes&#xA;!&lt;img src=&#34;https://lim-blog.netlify.app/images/Pasted%20image%2020241206140340.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;yesss&#34;&gt;Yesss&lt;/h1&gt;</description>
     </item>
   </channel>
 </rss>

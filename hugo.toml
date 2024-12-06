@@ -1,4 +1,4 @@
 baseURL = 'https://lim-blog.netlify.app/'
 languageCode = 'en-us'
 title = 'Lim Blog'
-theme = 'jane'
+theme = 'hyde'

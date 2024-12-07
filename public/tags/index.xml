@@ -9,13 +9,6 @@
     <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lim-blog.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tag1</title>
-      <link>https://lim-blog.netlify.app/tags/tag1/</link>
-      <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://lim-blog.netlify.app/tags/tag1/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Tag2</title>
       <link>https://lim-blog.netlify.app/tags/tag2/</link>
       <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>

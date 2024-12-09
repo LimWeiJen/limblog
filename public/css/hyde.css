@@ -57,7 +57,6 @@ html {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
-  background-color: #202020;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -242,7 +241,7 @@ a.sidebar-nav-item:focus {
 
 /* Brown */
 .theme-base-0f .sidebar {
-  background-color: #8f5536;
+  background-color: #202020;
 }
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {

@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://lim-blog.netlify.app/posts/ac-circuits-basics---voltage-current-resistance-reactants-and-inductance/</loc>
+    <lastmod>2024-12-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lim-blog.netlify.app/tags/electronicsengineering/</loc>
+    <lastmod>2024-12-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lim-blog.netlify.app/</loc>
+    <lastmod>2024-12-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lim-blog.netlify.app/posts/</loc>
+    <lastmod>2024-12-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lim-blog.netlify.app/tags/</loc>
+    <lastmod>2024-12-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://lim-blog.netlify.app/posts/electrodynamics-chapter-1/</loc>
     <lastmod>2024-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lim-blog.netlify.app/</loc>
-    <lastmod>2024-11-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lim-blog.netlify.app/posts/</loc>
-    <lastmod>2024-11-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://lim-blog.netlify.app/tags/tag2/</loc>
-    <lastmod>2024-11-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lim-blog.netlify.app/tags/</loc>
     <lastmod>2024-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lim-blog.netlify.app/categories/</loc>

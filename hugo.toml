@@ -12,3 +12,13 @@ theme = 'hyde'
 [params]
   description = "Hello there! I'm Lim Wei Jen, a full-stack web developer. I love collaborating on quick projects and bringing ideas to life. With a passion for both graphics design and programming, I create visually stunning and functional websites. I bring a unique blend of creativity and technical expertise to every project."
   themeColor = "theme-base-0f"
+  math = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]

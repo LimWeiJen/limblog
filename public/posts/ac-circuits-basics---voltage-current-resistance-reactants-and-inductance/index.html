@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.139.3">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AC Circuits Basics - Voltage, Current, Resistance, Reactants, and Inductance &middot; Lim Blog</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://lim-blog.netlify.app/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://lim-blog.netlify.app/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://lim-blog.netlify.app/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://lim-blog.netlify.app/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class="theme-base-0f ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://lim-blog.netlify.app/"><h1>Lim Blog</h1></a>
+      <p class="lead">
+        Hello World
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://lim-blog.netlify.app/">Home</a> </li>
+        <li><a href="https://github.com/LimWeiJen/"> Github </a></li><li><a href="https://limweijen.netlify.app"> Website </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2024. All rights reserved. </p>
+  </div>
+</aside>
+    <main class="content container">
+    <div class="post">
+  <h1>AC Circuits Basics - Voltage, Current, Resistance, Reactants, and Inductance</h1>
+  <time datetime=2024-12-08T00:00:00Z class="post-date">Sun, Dec 8, 2024</time>
+  <h1 id="prerequisites">Prerequisites</h1>
+<ul>
+<li>The understanding of DC circuits</li>
+<li>Ohm&rsquo;s law</li>
+<li>Kirchhoff&rsquo;s Law</li>
+</ul>
+<hr>
+<h1 id="voltage-and-current-of-ac-circuits">Voltage and Current of AC Circuits</h1>
+$$
+\begin{align}
+V & = V_{p}\sin(wt+\phi) \\
+I & = I_{p}\sin(wt+\phi)
+\end{align}
+$$<h1 id="inductance">Inductance</h1>
+<p>An inductor is a coiled wire. When the coiled wire experiences changing electric flow, it will produce a magnetic field, and that magnetic field produce an opposite electric field, resulting in an opposition towards the current flow. The magnitude of the potential produced by the magnetic field is given by the equation:</p>
+<pre tabindex="0"><code class="language-tikz" data-lang="tikz">\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz}
+\draw
+(0, 0) -- (7, 0) to[switch] (10,0)
+(10, 0) to[battery] (10, -10)
+(10, -10) -- (0, -10)
+(0, -10) to[lamp] (0, -5) to[resistor, l=R1] (0, 0)
+(0, -5) to[capacitor, l=C1] (2, -5) -- (2, -3) to[resistor, l=R2] (5, -3)
+(5, 0) to[resistor, l=R3] (5, -3)
+(5, -3) to[capacitor, l=C2] (7, -3) -- (7, -10)
+;
+\end{circuitikz}
+\end{document}
+</code></pre>$$
+\begin{align}
+V & = L \frac{dI}{dt}
+\end{align}
+$$<p>
+Where $L$ is the inductance, which is the measure $V$ produced by the rate of flow of current, $I$.</p>
+<h1 id="capacitance">Capacitance</h1>
+$$
+\begin{align}
+V & = L \frac{dI}{dt} \\
+ \\
+ I& = I_{0}\cos(wt) \\
+ & = I_{0}(\cos wt+j\sin wt) \\
+ & = I_{0}e^{jwt} \\
+\frac{dI}{dt} & = I_{0}e^{jwt}jw \\
+ & = Ijw \\
+ \\
+V & = LIjw \\
+X_{L} & = j \times Lw \\
+ & = Lw, \angle 90\degree
+\end{align}
+$$$$
+\begin{align}
+Q & = CV \\
+\frac{dQ}{dt} & = C\frac{dV}{dt} \\
+I & = C \frac{dV}{dt} \\
+ \\
+V & = V_{p}\cos wt \\
+ & = V_{p}(\cos wt+j\sin wt) \\
+ & = V_{p}e^{jwt} \\
+\frac{dV}{dt} & = V_{p}e^{jwt}(jw) \\
+ & = Vjw \\
+ \\
+I & = CVjw \\
+\frac{1}{X_{C}} & = Cjw \\
+X_{C} & = \frac{1}{Cjw} \\
+ & = \frac{1}{Cjw} \times \frac{j}{j} \\
+ & = -j \times \frac{1}{Cw} \\
+ & = \frac{1}{Cw},\angle -90\degree
+\end{align}
+$$<h2 id="series-circuit">Series Circuit</h2>
+$$
+\begin{align}
+|Z|^2 & = |R|^2+|X_{L}|^2 \\
+Z & = R+j|X_{L}|
+\end{align}
+$$$$
+\begin{align}
+Z & = R + j|X_{L}| \\
+ZI & = RI + j|X_{L}|I \\
+V_{s} & = V_{r}+jV_{L}
+\end{align}
+$$$$
+\begin{align}
+|Z|^2 & =|R|^2 + |X_{C}|^2 \\
+Z & = R-j|X_{C}| \\
+ZI & = RI-j|X_{C}|I \\
+V_{s} & = V_{r}-jV_{C}
+\end{align}
+$$<p>
+RLC
+$$
+\begin{align}
+Z &amp; = R+j|X_{L}|-j|X_{C}| \
+&amp; = R+j(|X_{L}|-|X_{C}|) \
+ZI &amp; = RI+jI(|X_{L}|-|X_{C}|) \
+V_{s} &amp; = V_{r}+j(V_{L}-V_{C}) \</p>
+<p>|Z|^2 &amp; = |R|^2+(|X_{L}|-|X_{C}|)^2
+\end{align}
+$$</p>
+<h2 id="parallel-circuit">Parallel Circuit</h2>
+$$
+\begin{align}
+\frac{1}{Z} & = \frac{1}{R}+\frac{1}{j|X_{L}|} \\
+\frac{V}{Z} & = \frac{V}{R}+\frac{V}{j|X_{L}|} \\
+I_{s} & = I_{r}-jI_{L} \\
+\frac{1}{|Z|^2} & = \frac{1}{R^2}+\frac{1}{|X_{L}|^2}
+\end{align}
+$$$$
+\begin{align}
+\frac{1}{Z} & = \frac{1}{R} - \frac{1}{j|X_{C}|}  \\
+\frac{V}{Z} & = \frac{V}{R}- \frac{V}{j|X_{C}|} \\
+I_{s} & = I_{r}+jI_{c} \\
+\frac{1}{|Z|^2} & = \frac{1}{R^2}+ \frac{1}{|X_{C}|^2}
+\end{align}
+$$$$
+\begin{align}
+\frac{1}{Z} & = \frac{1}{R} + \frac{1}{j|X_{L}|}-\frac{1}{j|X_{C}|} \\
+ & = \frac{1}{R}-j \frac{1}{|X_{L}|}+ j \frac{1}{|X_{C}|} \\
+ & = \frac{1}{R}+j \left( \frac{1}{|X_{C}|}-\frac{1}{|X_{L}|} \right) \\
+ & = \frac{1}{R}- \frac{1}{j|X_{C}|}+ \frac{1}{j|X_{L}|} \\
+\frac{V}{Z} & = \frac{V}{R}-\frac{V}{j|X_{C}|}+\frac{V}{j|X_{L}|} \\
+I_{s} & = I_{r}+j(I_{C}-I_{L}) \\
+\frac{1}{|Z|^2} & = \frac{1}{R^2}+ \left( \frac{1}{|X_{C}|} -\frac{1}{|X_{L}|}\right)^2
+\end{align}
+$$
+
+  <a href="https://lim-blog.netlify.app/">Back</a>
+</div>
+
+
+    </main>
+
+    
+      
+    
+    
+      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)'], ['$', '$']]                  
+    },
+    chtml: {
+      scale: 0.7
+    },
+    svg: {
+      scale: 0.7
+    }
+  };
+</script>
+    
+  </body>
+</html>
